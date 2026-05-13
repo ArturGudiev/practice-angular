@@ -3,6 +3,7 @@ import { A1 } from './components/animations/a1/a1';
 import { A2 } from './components/animations/a2/a2';
 import { A3Leave } from './components/animations/a3-leave/a3-leave';
 import { A3LeaveAnswer } from './components/animations/a3-leave-answer/a3-leave-answer';
+import { Ngrx1 } from './components/ngrx-1/ngrx-1';
 
 export const routes: Routes = [
     {
@@ -12,4 +13,5 @@ export const routes: Routes = [
     { path: 'a2', component: A2 },
     { path: 'a3', component: A3Leave },
     { path: 'a3a', component: A3LeaveAnswer },
+    { path: 'ngrx', component: Ngrx1 },
 ];
